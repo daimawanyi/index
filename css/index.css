@@ -119,6 +119,19 @@ body{
     color: #a5aeb8;
     margin: .4rem auto .8rem;
     text-align: center;
+}
+.secondBox .secondBox4{
+    height: .6rem;
+    text-align: center;
+}
+.secondBox .secondBox4 img{
+    width: .6rem;
+    height: .6rem;
+
+}
+.secondBox .secondBox4 img.bg8{
+    margin-left: 3.86rem;
+    margin-right: 3.86rem;
 
 }
 
