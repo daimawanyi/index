@@ -123,15 +123,27 @@ body{
 .secondBox .secondBox4{
     height: .6rem;
     text-align: center;
+    font-size: 0;
+    line-height: 0;
 }
 .secondBox .secondBox4 img{
     width: .6rem;
     height: .6rem;
-
 }
 .secondBox .secondBox4 img.bg8{
     margin-left: 3.86rem;
     margin-right: 3.86rem;
-
+}
+.secondBox .secondBox5{
+    font-size: .14rem;
+    line-height: .14rem;
+    text-align: center;
+}
+.secondBox .secondBox5 h5{
+    display: inline-block;
+}
+.secondBox .secondBox5 h5.h5{
+    margin-left: 3.86rem;
+    margin-right: 3.86rem;
 }
 
