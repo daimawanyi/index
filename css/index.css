@@ -89,6 +89,7 @@ body{
 .secondBox .secondBox2{
     text-align: center;
     width: 12rem;
+    height: 5.76rem;
     margin: 0.8rem auto 2.2rem;
 }
 .secondBox .secondBox2 img{
@@ -98,7 +99,26 @@ body{
     margin: 0 .16rem;
 
 }
-.secondBox .secondBox2 .secondBox2img{
+.secondBox .secondBox2 .bg3{
+    margin: 0 .16rem;
 }
-.secondBox .secondBox2 .secondBox2img .bg3{
+.secondBox .secondBox2 .bg4{
+    width: 3.87rem;
 }
+.secondBox .secondBox3 h4{
+    font-size: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    /*
+    margin-bottom: .4rem;
+    */
+}
+.secondBox .secondBox3 p{
+    font-size: .14rem;
+    line-height: .14rem;
+    color: #a5aeb8;
+    margin: .4rem auto .8rem;
+    text-align: center;
+
+}
+
