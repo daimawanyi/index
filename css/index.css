@@ -173,3 +173,74 @@ body{
     width: auto;
     height: auto;
 }
+.foreBox .foreBox_2 h4{
+    font-size: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    margin: 2.2rem auto .4rem;
+}
+.foreBox .foreBox_2 p{
+    font-size: .14rem;
+    line-height: .14rem;
+    color: #a5aeb8;
+    text-align: center;
+
+}
+.foreBox .form1{
+    padding-top: .8rem;
+    text-align: center;
+    font-size: .14rem;
+    line-height: .14rem;
+    margin: 0 auto;
+}
+.foreBox .form1 .form1_1{
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.foreBox .form1 .form1_1 .formLeft{
+    display: inline-block;
+}
+.foreBox .form1 .formLeft ul{
+    list-style: none;
+}
+.foreBox .form1 .formLeft li{
+    font-size: .14rem;
+    line-height: .14rem;
+    height: .14rem;
+}
+.foreBox .form1 .formLeft li span{
+    color: #d7434e;
+    display: inline-block;
+    font-size: .10rem;
+    line-height: .10rem;
+}
+.foreBox .form1 .formLeft li input{
+    width: 4.4rem;
+    border-top-style:none;
+    border-left-style:none;
+    border-right-style:none;
+    height: .12rem;
+}
+.foreBox .form1 .form1_1 .formRight{
+    display: inline-block;
+    margin-left: 1.2rem;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_1{
+    float: left;
+    display: block;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_2{
+    float: left;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_3{
+    float: left;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_4{
+    float: left;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_4 ul{
+    display: block;
+    list-style: none;
+}
