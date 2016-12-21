@@ -45,6 +45,16 @@ ul{
     margin-right: .4rem;
     color: #a5aeb8;
 }
+.nav .navRight ul li:nth-child(1) a{
+    color: #008cd7;
+}
+.nav .navRight ul li:hover a{
+    color: #008cd7;
+}
+.nav .navRight ul li a{
+    text-decoration:none;
+    color: #a5aeb8;
+}
 .nav .navRight ul li:nth-child(1){
     color: #008cd7;
 }
@@ -98,15 +108,56 @@ ul{
 .secondBox .secondBox2 a{
     display: inline-block;
     font-size: 0;
-    vertical-align:top;
-    position: relative;
-    background: url("../img/eye.png");
-    background-position: top;
-    z-index: 100;
 }
-.secondBox .secondBox2 a img:nth-child(1)/*:hover*/{
+.secondBox .secondBox2 a .div-img1{
+    visibility: hidden;
+    position: absolute;
+    width: 3.89rem;
+    height: 2.8rem;
+}
+.secondBox .secondBox2 a:hover .div-img1{
+    visibility: visible;
+}
+.secondBox .secondBox2 a .div-img1 .img1bg{
+    width: 3.89rem;
+    height: 2.8rem;
+}
+.secondBox .secondBox2 a .div-img1 .eye{
+    width: .64rem;
+    height: .64rem;
+    background:#008cd7;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.32rem;
+    margin-left: -.32rem;
+}
+.secondBox .secondBox2 a .div-img1 .eye img{
+    width: .24rem;
+    height: .12rem;
     position: relative;
-    z-index: 1;
+    top: 50%;
+    margin-top: -.6rem;
+}
+.secondBox .secondBox2 a .div-img1 .hide{
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 3.89rem;
+    height: .66rem;
+}
+.secondBox .secondBox2 a .div-img1 .hide h6{
+    font-size: .16rem;
+    line-height: .33rem;
+    color: #666666;
+    text-align: left;
+}
+.secondBox .secondBox2 a .div-img1 .hide p{
+    font-size: .16rem;
+    line-height: .33rem;
+    color: #cccccc;
+    text-align: left;
 }
 .secondBox .secondBox2 img{
     height: 2.8rem;
@@ -176,6 +227,12 @@ ul{
     height: 3.6rem;
     background: url("../img/10.png")no-repeat;
     background-size: 100% 100%;
+}
+.foreBox input{
+    outline: none;
+}
+.foreBox input:focus{
+    border-bottom:1px solid #008cd7;
 }
 .foreBox .foreBox_1 h4{
     font-size: .3rem;
@@ -277,7 +334,10 @@ ul{
 .foreBox .form1 .form1_1 .formRight .formRight_1 input{
     margin-right: .1rem;
 }
-.foreBox .form1 .form1_1 .formRight .formRight_1 input:nth-of-type(2),.foreBox .form1 .form1_1 .formRight .formRight_2 input:nth-of-type(2){
+.foreBox .form1 .form1_1 .formRight .formRight_1 input:nth-of-type(1),.foreBox .form1 .form1_1 .formRight .formRight_2 input:nth-of-type(1){
+    margin-left: .1rem;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_1 label:nth-of-type(2),.foreBox .form1 .form1_1 .formRight .formRight_2 label:nth-of-type(2){
     margin-right: .2rem;
 }
 .foreBox .form1 .form1_1 .formRight .formRight_1 label{
@@ -298,11 +358,22 @@ ul{
 .foreBox .form1 .form1_1 .formRight .formRight_3 label:nth-child(5),.foreBox .form1 .form1_1 .formRight .formRight_3 label:nth-child(7),.foreBox .form1 .form1_1 .formRight .formRight_3 label:nth-child(9){
     margin-right: .3rem;
 }
+.foreBox .form1 .form1_1 .formRight .formRight_3 input:nth-child(2),.foreBox .form1 .form1_1 .formRight .formRight_4 input:nth-of-type(1){
+    margin-right: .1rem;
+    margin-left: .1rem;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_3 input:nth-of-type(2),.foreBox .form1 .form1_1 .formRight .formRight_3 input:nth-of-type(3),.foreBox .form1 .form1_1 .formRight .formRight_3 input:nth-of-type(4),.foreBox .form1 .form1_1 .formRight .formRight_3 input:nth-of-type(5){
+    margin-right: .1rem;
+}
 .foreBox .form1 .form1_1 .formRight .formRight_3 label:nth-child(3),.foreBox .form1 .form1_1 .formRight .formRight_4 label:nth-child(3){
     margin-right: .2rem;
 }
 .foreBox .form1 .form1_1 .formRight .formRight_4{
     margin-bottom: .48rem;
+}
+.foreBox .form1 .form1_1 .formRight .formRight_4 input:nth-of-type(2){
+    margin-right: .1rem;
+
 }
 .foreBox .form1 .form1_1 .formRight .formRight_5{
     clear: both;
@@ -333,6 +404,16 @@ ul{
 .foreBox .foreBox_3 ul li:nth-child(1){
     margin-right: .4rem;
 }
+.foreBox .foreBox_3 ul li:last-child{
+    font-size: .14rem;
+    margin-left: .1rem;
+}
+.foreBox .foreBox_3 ul li:last-child span:first-child{
+    color: red;
+}
+.foreBox .foreBox_3 ul li:last-child span:last-child{
+    color: #a5aeb8;
+}
 .foreBox .foreBox_3 ul li button{
     width: 2rem;
     height: .44rem;
@@ -342,8 +423,42 @@ ul{
     border: .01rem solid #008ed7;
     color: #008ed7;
 }
-
-
+.foreBox .foreBox_3 ul li button:focus{
+    background-color: #008cd7;
+    color: #ffffff;
+}
+.foreBox .foreBox_4{
+    font-size: .14rem;
+    line-height: .14rem;
+    float: right;
+    position: relative;
+    width: 1.8rem;
+    top: -3.18rem;
+}
+.foreBox .foreBox_4 .foreBox_4_1{
+    line-height: .58rem;
+    height: .58rem;
+    background-color: #008ed7;
+    text-align: center;
+    color: #ffffff;
+}
+.foreBox .foreBox_4 .foreBox_4_1 span:nth-child(1){
+    margin-right: .75rem;
+}
+.foreBox .foreBox_4 .foreBox_4_2{
+    background-color: #f5f5f5;
+    line-height: .32rem;
+}
+.foreBox .foreBox_4 .foreBox_4_2 ul{
+    padding-left: .24rem;
+}
+.foreBox .foreBox_4 .foreBox_4_2 ul li img{
+    margin-right: .2rem;
+}
+.foreBox .foreBox_4 .foreBox_4_2 ul li:last-child{
+    font-size: .2rem;
+}
+/*fiveBox*/
 .fiveBox{
     background: #202224;
     height: 7.3rem;
@@ -382,6 +497,12 @@ ul{
     color: #ffffff;
     margin-bottom: .3rem;
 }
+.fiveBox .fiveBox2 ul .wx-wb{
+    margin-top: .6rem;
+}
+.fiveBox .fiveBox2 ul .wx-wb a:nth-child(2){
+    margin-left: .32rem;
+}
 .fiveBox .fiveBox3{
     display: inline-block;
     margin-top: .25rem;
@@ -391,7 +512,7 @@ ul{
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    border-bottom: 1px solid #008cd7;
+    border-bottom:.01rem solid #2d3033;
     background-color: #202224;
     width: 4.4rem;
     font-size: .13rem;
@@ -399,6 +520,11 @@ ul{
     padding-top: .3rem;
     padding-bottom: .1rem;
     height: .14rem;
+    outline: none;
+    color: #a5aeb8;
+}
+.fiveBox .fiveBox3 input:focus{
+    border-bottom: 1px solid #008cd7;
 }
 .fiveBox .fiveBox3 input:nth-child(4){
     padding-bottom: 1.3rem;
@@ -407,13 +533,12 @@ ul{
 .fiveBox .fiveBox3 button{
     width: 3.76rem;
     height: 0.44rem;
-    /*
-    margin-bottom: .94rem;
-    */
     background-color: #008cd7;
     border: none;
-
+    color: #ffffff;
 }
+
+/*sixBox*/
 .sixBox{
     background: #17181a;
     height: .6rem;

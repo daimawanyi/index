@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>index</title>
+    <title>北京市五维矩阵科技有限公司</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <link rel="icon" href="img/logo.png"/>
@@ -12,22 +12,21 @@
             var desW = 1920;
             var winW = document.documentElement.clientWidth;
             if (winW > 1920) return;
-            document.documentElement.style.fontSize = winW / desW * 133.3333333 + 'px';
+            document.documentElement.style.fontSize = winW / desW * 100 + 'px';
         }();
-
     </script>
 </head>
 <body style="overflow: scroll">
-<div class="nav">
+<div class="nav" id="nav">
     <div class="navLeft"></div>
     <div class="navRight">
         <ul>
-            <li>首页</li>
-            <li>案例</li>
-            <li>服务</li>
-            <li>客户</li>
-            <li>合作</li>
-            <li>联系</li>
+            <li><a href="#nav">首页</a></li>
+            <li><a href="#secondBox">案例</a></li>
+            <li><a href="#threeBox">服务</a></li>
+            <li><a href="#foreBox">客户</a></li>
+            <li><a href="#fiveBox">合作</a></li>
+            <li><a href="#sixBox">联系</a></li>
         </ul>
     </div>
     <div class="navW">
@@ -36,19 +35,33 @@
         <p>将你的梦想变成现实</p>
     </div>
 </div>
-<div class="secondBox">
+<div class="secondBox" id="secondBox">
     <div class="secondBox1">
         <h4>权威的互联网+助推器</h4>
         <p>五维矩阵，一个面向中小企业以及技术要求成本高的初创团队。<br/>我们提供专业的无代码化解决方案，提供高自由度低成本开发网站h5活动以及app（安卓／ios／html5）配合专业的推广渠道<br/>定期推送数据分歧报表流量统计，权威大数据支持，网络托管等服务。<br/>减轻传动企业转型负担，减少初创团队技术开支，7X24小时全天候客服支持，安全稳定快捷方便。</p>
     </div>
     <div class="secondBox2">
-        <a href="http://www.quechao.com"><img src="img/1.png" alt="" style="width: 3.89rem"/></a><img src="img/2.png" alt=""class="bg2"/><img src="img/3.png" alt=""/>
+        <a href="http://www.quechao.com">
+            <div class="div-img1">
+                <div class="img1bg">
+                    <img src="img/hover_03.png" alt=""/>
+                </div>
+                <div class="eye">
+                    <img src="img/eye.png" alt=""/>
+                </div>
+                <div class="hide">
+                    <h6>雀巢奶粉</h6>
+                    <p>www.quechao.com</p>
+                </div>
+            </div>
+            <img src="img/1.png" id="img1" alt="" style="width: 3.89rem"/>
+        </a><img src="img/2.png" alt=""class="bg2"/><img src="img/3.png" alt=""/>
         <img src="img/4.png" alt="" class="bg4"/><img src="img/5.png" alt="" class="bg3"/><img src="img/6.png" alt=""/>
     </div>
     <div class="secondBox3">
         <h4>什么样的产品我们能做</h4>
         <p>只要把你的想法、你的创意给我们，我们将在这里帮你实现！！<br/>
-            您的故事，由我们大家共同完成</p>
+            您的故事，由我们大家共同完成。</p>
     </div>
     <div class="secondBox4">
         <div class="secondBox4_1">
@@ -57,7 +70,7 @@
             <p>顶级品牌网站建设公司!<br/>
                 基于互联网的品牌行销策略的策划与执行。品牌<br/>
                 形象挖掘、梳理、包装、表现与传播。辅助企业<br/>
-                实现品牌战略目标的互联网解决方案</p>
+                实现品牌战略目标的互联网解决方案。</p>
         </div>
         <div class="secondBox4_2">
             <img src="img/8.png" alt=""/>
@@ -70,12 +83,12 @@
             <p>OS系统、Android系统应用开发。<br/>
                 App Storm、Google Play发布。团队参与开发<br/>
                 招商银行官方App。拥有对app个类型项目开发<br/>
-                的经验</p>
+                的经验。</p>
         </div>
     </div>
 </div>
-<div class="threeBox"></div>
-<div class="foreBox">
+<div class="threeBox" id="threeBox"></div>
+<div class="foreBox" id="foreBox" >
     <div class="foreBox_1">
         <h4>我们的客户</h4>
         <p>Matrix5d目前已成为支付宝、腾讯、阿里巴巴、百度、银联、IDG资本、中央电视台等主流平台战略合作伙伴。<br/>我们将竭诚为用户提供高效优质的移动平台营销解决方案。</p>
@@ -113,38 +126,38 @@
         </div>
             <div class="formRight">
                 <div class="formRight_1">
-                    <label for="1">您最关注的地方:</label>
-                    <input type="checkbox" id="1"/>
-                    <label for="1">对功能要求比较高</label>
+                    <label>您最关注的地方:</label>
                     <input type="checkbox" />
-                    <label for="1">对设计创意要求比较高</label>
+                    <label>对功能要求比较高</label>
+                    <input type="checkbox" />
+                    <label>对设计创意要求比较高</label>
                 </div><br/>
                 <div class="formRight_2">
-                    <label for="1">您最关注的地方:</label>
+                    <label>您最关注的地方:</label>
                     <input type="checkbox"/>
-                    <label for="1">需要在线支付购物</label>
+                    <label>需要在线支付购物</label>
                     <input type="checkbox"/>
-                    <label for="1">针对搜索引擎排名</label>
+                    <label>针对搜索引擎排名</label>
                 </div><br/>
                 <div class="formRight_3">
-                    <label for="1">您的大致预算是:</label>
-                    <input type="radio"/>
-                    <label for="1">1万以内</label>
-                    <input type="radio"/>
-                    <label for="1">1-3万</label>
-                    <input type="radio"/>
-                    <label for="1">3-5万</label>
-                    <input type="radio"/>
-                    <label for="1">5-10万</label>
-                    <input type="radio"/>
-                    <label for="1">10-30万</label>
+                    <label>您的大致预算是:</label>
+                    <input type="radio" name="1"/>
+                    <label>1万以内</label>
+                    <input type="radio" name="1"/>
+                    <label>1-3万</label>
+                    <input type="radio" name="1"/>
+                    <label>3-5万</label>
+                    <input type="radio" name="1"/>
+                    <label>5-10万</label>
+                    <input type="radio" name="1"/>
+                    <label>10-30万</label>
                 </div><br/>
                 <div class="formRight_4">
-                    <label for="1">您的大致预算是:</label>
-                    <input type="radio"/>
-                    <label for="1">10-100万</label>
-                    <input type="radio"/>
-                    <label for="1">30-100万</label>
+                    <label>您的大致预算是:</label>
+                    <input type="radio" name="1"/>
+                    <label>10-100万</label>
+                    <input type="radio" name="1"/>
+                    <label>30-100万</label>
                 </div><!--<br/><br/><br/><br/><br/><br/><br/><br/><br/>-->
                 <div class="formRight_5">
                     <input type="text" placeholder="参考网站（填写您感觉和您所需要感觉类似的参考网址）"/><br/>
@@ -159,11 +172,37 @@
                 <button>上传需求文档</button>
             </li><li>
                 <button>提交</button>
+            </li><li>
+                <span>*</span>
+                <span>为必填项目</span>
             </li>
         </ul>
     </div>
+    <div class="foreBox_4">
+        <div class="foreBox_4_1">
+            <span>在线咨询</span>
+            <span>X</span>
+        </div>
+        <div class="foreBox_4_2">
+            <ul>
+                <li>
+                    <img src="img/qq.png" alt=""/>
+                    <span>6892783</span>
+                </li>
+                <li>
+                    <img src="img/qq.png" alt=""/>
+                    <span>386685456</span>
+                </li>
+                <li>
+                    <img src="img/tel.png" alt=""/>
+                    <span>TEL</span>
+                </li>
+                <li>010-57199869</li>
+            </ul>
+        </div>
+    </div>
 </div>
-<div class="fiveBox">
+<div class="fiveBox" id="fiveBox">
     <div class="fiveBox1">
         <h3>联系我们</h3>
         <p>对我们Matrix5D有很多话要说吧，不管是建议还是意见，都可以在这里反馈。
@@ -176,6 +215,9 @@
                 <li>Tel:010-57199869</li>
                 <li>Email:CEO@matrix5d.com/CTO@matrix5d.com</li>
                 <li>Zipcode:101100</li>
+                <div class="wx-wb">
+                    <a href=""><img src="img/wx.png" alt=""/></a><a href=""><img src="img/wb.png" alt=""/></a>
+                </div>
             </ul>
         </div>
         <div class="fiveBox3">
@@ -189,8 +231,9 @@
         </div>
     </div>
 </div>
-<div class="sixBox">
+<div class="sixBox" id="sixBox">
     <p>Copyright &copy; 2009-2015 Matrix5d design. All rights reserved</p>
 </div>
+
 </body>
 </html>
